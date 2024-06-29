@@ -1,0 +1,73 @@
+body {
+  text-align: center;
+  background-color: rgba(129, 122, 122, 0.678);
+}
+.box {
+  background-color: white;
+  border: 1px solid gray;
+  height: auto;
+  border-radius: 4px;
+  width: 400px;
+  text-align: center;
+}
+.box p {
+  margin-left: 20px;
+  text-align: left;
+  font-size: 20px;
+  font-family: tahoma;
+  font-weight: bold;
+}
+.add {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.add input {
+  border-radius: 20px;
+  height: 36px;
+  padding-inline-start: 8px;
+  border: 1px solid gray;
+  width: 250px;
+  background-color: bisque;
+}
+.add button {
+  height: 40px;
+  border: 1px solid gray;
+  cursor: pointer;
+  width: 100px;
+  margin-left: -47px;
+  border-radius: 50px;
+  background-color: orange;
+}
+
+.task p {
+  margin-left: 2px;
+  font-size: 14px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.task span {
+  color: red;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: tahoma;
+}
+.part {
+  display: flex;
+  flex-direction: row;
+}
+.task {
+  margin-left: 53px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  margin-top: 20px;
+  border: 1px solid gray;
+  height: 40px;
+  width: 280px;
+  background-color: white;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
